@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 
 # use the inbuilt dataset
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_diabetes
 
-iris = load_iris()
+diabetes = load_diabetes()
+print (diabetes.data);
